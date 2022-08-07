@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Stella的職涯迷航日誌</title>
-        <link>https://example.com/posts/</link>
+        <link>https://salanking.github.io/posts/</link>
         <description>Recent content in Posts on Stella的職涯迷航日誌</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Mon, 01 Aug 2022 01:56:24 +0800</lastBuildDate><atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 01 Aug 2022 01:56:24 +0800</lastBuildDate><atom:link href="https://salanking.github.io/posts/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>測試</title>
-        <link>https://example.com/posts/my-first-post/</link>
+        <link>https://salanking.github.io/posts/my-first-post/</link>
         <pubDate>Mon, 01 Aug 2022 01:56:24 +0800</pubDate>
         
-        <guid>https://example.com/posts/my-first-post/</guid>
+        <guid>https://salanking.github.io/posts/my-first-post/</guid>
         <description>&lt;p&gt;測試文件&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;111
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;222
