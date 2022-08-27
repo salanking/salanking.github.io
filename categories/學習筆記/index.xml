@@ -12,7 +12,7 @@
         <pubDate>Fri, 26 Aug 2022 01:56:24 +0800</pubDate>
         
         <guid>https://salanking.github.io/posts/hugo/</guid>
-        <description>&lt;h1 id=&#34;安裝hugo&#34;&gt;安裝Hugo&lt;/h1&gt;
+        <description>&lt;img src="https://salanking.github.io/images/Hugo/05.jpg" alt="Featured image of post Hugo架站" /&gt;&lt;h1 id=&#34;安裝hugo&#34;&gt;安裝Hugo&lt;/h1&gt;
 &lt;p&gt;作業系統：Windows&lt;/p&gt;
 &lt;p&gt;Hugo的Git發布頁面&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;連結&lt;/a&gt;，即可找到最新發布的各系統版本，下載後可按照官網的&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/installing/#windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
