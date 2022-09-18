@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>學習筆記 on Stella的職涯迷航日誌</title>
-        <link>https://salanking.github.io/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/</link>
-        <description>Recent content in 學習筆記 on Stella的職涯迷航日誌</description>
+        <title>C# on Stella的職涯迷航日誌</title>
+        <link>https://salanking.github.io/tags/c#/</link>
+        <description>Recent content in C# on Stella的職涯迷航日誌</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
-        <lastBuildDate>Sun, 18 Sep 2022 14:40:13 +0800</lastBuildDate><atom:link href="https://salanking.github.io/categories/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 18 Sep 2022 14:40:13 +0800</lastBuildDate><atom:link href="https://salanking.github.io/tags/c#/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>使用HttpClient發出HTTP請求</title>
         <link>https://salanking.github.io/posts/httpclient/</link>
         <pubDate>Sun, 18 Sep 2022 14:40:13 +0800</pubDate>
@@ -93,144 +93,6 @@ Created Time: July 29, 2022 10:50 AM&lt;/p&gt;
     &gt;在 .NET Core 與 .NET Framework 上使用 HttpClientFactory&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.yowko.com/httpclient-not-respect-dns-change/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;HttpClient 無法反應 DNS 異動的解決方式&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Hugo架站</title>
-        <link>https://salanking.github.io/posts/hugo/</link>
-        <pubDate>Fri, 26 Aug 2022 01:56:24 +0800</pubDate>
-        
-        <guid>https://salanking.github.io/posts/hugo/</guid>
-        <description>&lt;img src="https://salanking.github.io/images/Hugo/05.jpg" alt="Featured image of post Hugo架站" /&gt;&lt;h1 id=&#34;安裝hugo&#34;&gt;安裝Hugo&lt;/h1&gt;
-&lt;p&gt;作業系統：Windows&lt;/p&gt;
-&lt;p&gt;Hugo的Git發布頁面&lt;a class=&#34;link&#34; href=&#34;https://github.com/gohugoio/hugo/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;連結&lt;/a&gt;，即可找到最新發布的各系統版本，下載後可按照官網的&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/installing/#windows&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;影片&lt;/a&gt;步驟操作。&lt;/p&gt;
-&lt;p&gt;但是依照一般方法下載安裝後要處理的步驟比較多，推薦透過&lt;a class=&#34;link&#34; href=&#34;https://github.com/ScoopInstaller/Scoop#readme&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;scoop&lt;/a&gt;來安裝步驟簡單省時間。&lt;/p&gt;
-&lt;h2 id=&#34;步驟&#34;&gt;步驟：&lt;/h2&gt;
-&lt;p&gt;以下步驟使用PowerShell完成&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;安裝Scoop&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;iwr &lt;/span&gt;&lt;span class=&#34;n&#34;&gt;-useb&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;scoop&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sh&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;iex
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;安裝Hugo&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install hugo
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;或是安裝extended版本，我使用到的套版有註明：若修改 SCSS 文件會需要extended版本&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install hugo-extended
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;畫面如下：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://salanking.github.io/images/Hugo/01.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;01&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h1 id=&#34;用hugo建立網站&#34;&gt;用Hugo建立網站&lt;/h1&gt;
-&lt;h2 id=&#34;步驟-1&#34;&gt;步驟：&lt;/h2&gt;
-&lt;p&gt;以下步驟使用PowerShell完成&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;建立新網站&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;site&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;自訂專案資料夾名稱&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;cd進入到資料夾中&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;cd&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;自訂專案資料夾名稱&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;初始化Git版控，並將目前資料加入版控&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;使用git下載主題並將主題添加為 Submodule&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;參考畫面：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://salanking.github.io/images/Hugo/02.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;02&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;更換或修改config
-可直接用主題範例的config檔案置換掉網站根目錄下的config檔案再修改比較方便。&lt;/p&gt;
-&lt;p&gt;或是直接修改config檔案的&lt;code&gt;theme&lt;/code&gt;，改成自己使用的主題&lt;/p&gt;
-&lt;p&gt;ps.格式有分toml、yaml、json，可參考&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/configuration/#configuration-directory&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;官網說明&lt;/a&gt; &lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;toml&lt;/th&gt;
-&lt;th&gt;yaml&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;img src=&#34;https://salanking.github.io/images/Hugo/03.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;03&#34;
-	
-	
-&gt;&lt;/td&gt;
-&lt;td&gt;&lt;img src=&#34;https://salanking.github.io/images/Hugo/04.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;04&#34;
-	
-	
-&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;新增一篇文章，將被建立在&lt;code&gt;./content/posts/&lt;/code&gt; 資料夾底下&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;kp&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;posts&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;文檔名稱&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;md&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;運行Hugo&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-ruby&#34; data-lang=&#34;ruby&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;hugo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;server&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;D&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hugo預設port為：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;http://localhost:1313/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;開啟頁面即可看到網站已經在本地run起來&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;常用hugo指令&#34;&gt;常用Hugo指令&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;建立新專案 &lt;code&gt;hugo new&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;本地運行Hugo(會顯示草稿文件) &lt;code&gt;hugo server -D&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;本地運行Hugo(不含草稿文件) &lt;code&gt;hugo server&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;打包網站 &lt;code&gt;hugo&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;reference&#34;&gt;🎯Reference&lt;/h1&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/documentation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo官方文件&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://ithelp.ithome.com.tw/users/20106430/ironman/3613&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo 貼身打造個人部落格 :: 第 12 屆 iThome 鐵人賽&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
