@@ -301,10 +301,7 @@ if (!doNotTrack) {
     <section class="article-content">
     
     
-    <h1 id="httpclient">HttpClient</h1>
-<p>Created: 2022/07/29
-Created Time: July 29, 2022 10:50 AM</p>
-<p>可以透過HttpClient這個類別，在開發程式時針對欲訪問的URI，以HTTP方式傳送Request及接收Response。</p>
+    <p>可以透過HttpClient這個類別，在開發程式時針對欲訪問的URI，以HTTP方式傳送Request及接收Response。</p>
 <p>HttpClient只需實體化一次，就可以發送多個請求，官方建議以static方式共用，不須使用using()來釋放連線。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-csharp" data-lang="csharp"><span class="line"><span class="cl"><span class="k">static</span> <span class="k">readonly</span> <span class="n">HttpClient</span> <span class="n">client</span> <span class="p">=</span> <span class="k">new</span> <span class="n">HttpClient</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">

@@ -12,10 +12,7 @@
         <pubDate>Sun, 18 Sep 2022 14:40:13 +0800</pubDate>
         
         <guid>https://salanking.github.io/posts/httpclient/</guid>
-        <description>&lt;h1 id=&#34;httpclient&#34;&gt;HttpClient&lt;/h1&gt;
-&lt;p&gt;Created: 2022/07/29
-Created Time: July 29, 2022 10:50 AM&lt;/p&gt;
-&lt;p&gt;可以透過HttpClient這個類別，在開發程式時針對欲訪問的URI，以HTTP方式傳送Request及接收Response。&lt;/p&gt;
+        <description>&lt;p&gt;可以透過HttpClient這個類別，在開發程式時針對欲訪問的URI，以HTTP方式傳送Request及接收Response。&lt;/p&gt;
 &lt;p&gt;HttpClient只需實體化一次，就可以發送多個請求，官方建議以static方式共用，不須使用using()來釋放連線。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-csharp&#34; data-lang=&#34;csharp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;readonly&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;HttpClient&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;client&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;HttpClient&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
